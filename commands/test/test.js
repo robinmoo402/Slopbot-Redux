@@ -5,6 +5,6 @@ module.exports = {
         .setName('test')
         .setDescription('basic test command'),
     async execute(interaction) {
-        await interaction.reply('yuri has conquered the earth');
+        await interaction.reply('yuri shall conquer the earth');
     },
 };
